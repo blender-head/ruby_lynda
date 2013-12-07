@@ -1,0 +1,1 @@
+A Ruby Essential Training by Lyda.com
