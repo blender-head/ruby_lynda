@@ -1,0 +1,29 @@
+1. Variables :
+	
+	variable name:
+
+	- variable_name
+
+	variable scope:
+
+	- Global: $variable
+	- Class: @@variable
+	- Instance: @variable
+	- Local: variable
+	- Block: variable
+
+	data type:
+
+	- integer : 12345
+	- float : 10.0
+	- string: "Hello", 'Hello', "Ouput #{variable} inside a string", "Do evaluation #{1 + 1} inside a string"
+	- array : ["elem1", "elem2", 1, 2, 3]
+	- hash : {'first_name' => 'first_name', 'last_name' => 'last_name'}
+	- symbols : {:first_name => 'first_name', :last_name => 'last_name'}
+	- boolean : true/false
+	- ranges : 1 .. 10 (1-10), 1 ... 10 (1-9), 'a' .. 'm'
+	
+	constants : 
+
+	CONSTANT = 100
+	Constant = 200
