@@ -27,3 +27,105 @@
 
 	CONSTANT = 100
 	Constant = 200
+
+2. Control Structure :
+
+	conditionals:
+
+		if condition	
+			code
+		end
+
+		-------------
+
+		if condition
+			code
+		else
+			code
+		end
+
+		-------------
+
+		if condition
+			code
+		elsif condition
+			code
+		else
+			code
+		end
+
+		-------------
+
+		puts "Something" if condition_is_true
+
+		-------------
+
+		unless condition_is_false
+			code
+		end
+
+		-------------
+
+		case test_value
+			when value
+				code
+			when value
+				code
+			else
+				code
+		end
+
+		-------------
+
+		puts x == 1 ? "one" : "not one" => ternary operation
+
+		-------------
+
+		if y
+			x = y
+		else			=	x = y || z => OR
+			x = z
+		end
+
+		unless x
+			x = y		= 	x || = y =>  OR-EQUALS
+		end
+		  
+	loops :
+
+		loop do
+			code
+		end
+
+		-------------
+
+		while condition_is_true
+			code
+		end
+
+		-------------
+
+		until condition_is_false
+			code
+		end
+
+		-------------
+
+		5.times do
+			puts "hello"
+		end
+
+		1.upto(5) { puts "Hello" }
+		5.downto(1) { puts "Hello" }
+		(1..5).each do |i| { puts i.to_s }
+
+		1.upto(5) do |i|
+			puts "Hello " + i.to_s
+		end
+
+		numbers = [1,2,3]
+
+		for number in number
+			puts number
+		end
+
