@@ -166,5 +166,11 @@
 		puts 'Hello World!'
 	end
 
+5. Class:
+
+	class Animal
+		...
+	end
+
 	
 
