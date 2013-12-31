@@ -172,5 +172,11 @@
 		...
 	end
 
+6. Module:
+
+	module ContactInfo
+		...
+	end
+
 	
 
