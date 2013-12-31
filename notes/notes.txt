@@ -160,5 +160,11 @@
 
 	- sort
 
+4. Methods:
+
+	def welcome
+		puts 'Hello World!'
+	end
+
 	
 
